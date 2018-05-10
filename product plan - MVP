@@ -26,10 +26,12 @@ Back-end server to host and manage:
  * transaction formation from user data and private/public key encrypted data on device.
  
  Front_end to present UI-UX:
- * confirmed and un-confirmed balance
+ * confirmed and unconfirmed balance
+
  * main page with txn history
- * left swipe for recieving payments
+
+ * left swipe for receiving payments
+
  * 1st right swipe for sending payments
- * 2nd right swipe for currently opend channels with option to open, start channel with others and viewe current network activity.
- * 3rd right swipe for sending lightning txns by choosing a recipient from the network.
- * 4th right swipe for creating recieve requests for lightning txns.
+
+ * 2nd right swipe for creating lightning txns, requesting lightning txns, creating channels, currently opened channels with option to open and view current network activity.
