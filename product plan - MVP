@@ -18,13 +18,15 @@ Provided here is the agenda and plan for work inside the BitEmbassy hackathon!
  
  - what do we need to build?
 
+
 Back-end server to host and manage:
  * lightning Node.
  * Raiden node.
  * calls to bitcoin node.
  * calls to ethereum node.
  * transaction formation from user data and private/public key encrypted data on device.
- 
+
+
  Front_end to present UI-UX:
  * confirmed and unconfirmed balance
 
@@ -34,4 +36,46 @@ Back-end server to host and manage:
 
  * 1st right swipe for sending payments
 
- * 2nd right swipe for creating lightning txns, requesting lightning txns, creating channels, currently opened channels with option to open and view current network activity.
+ * 2nd right swipe for lightning: send lightning, requesting lightning, open channels, currently opened channels with option to view current network activity.
+
+Front end specifications ( by different windows! ):
+
+ = Home:
+ == top middle:
+     shows total balance, confirmed and uncomfirmed with respective bitcoin and lightning logos
+     On click: changes between USD and BTC balance.
+ == Top left:
+     Drop menue (from the left) that offers:
+     * backup up wallet: backup 24 word HD wallet memonic.
+     ...
+ == Bottom transaction log:
+    Log for incoming and outgoing txns
+    
+ = Recive:
+ == Middle:
+    Barcode with adress data
+    public adderss
+
+ = Send
+ == Amount:
+    amount of bitcoin or ethereum to send changing automatically between USD and BTC 
+ == Send to
+    bitcoin address with option to scan barcode
+ == Notes: data to add to txns
+ 
+ = Lightning
+ == Request payment:
+     opens to #request payment window
+ == Send payment:
+     opens to #Send payment window
+ == Open channel:
+    opens #Open channel window
+ == Round button:
+    menue :
+    view network activity
+    
+ 
+ 
+ 
+ 
+ 
