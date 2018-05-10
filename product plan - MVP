@@ -10,6 +10,26 @@ Provided here is the agenda and plan for work inside the BitEmbassy hackathon!
  
  - what do we already have?
  
+ Source code from previous wallets and projects.
+ 
  - what do we need to learn?
  
+ Lightning network API calls integration for LND and Raiden
+ 
  - what do we need to build?
+
+Back-end server to host and manage:
+ * lightning Node.
+ * Raiden node.
+ * calls to bitcoin node.
+ * calls to ethereum node.
+ * transaction formation from user data and private/public key encrypted data on device.
+ 
+ Front_end to present UI-UX:
+ * confirmed and un-confirmed balance
+ * main page with txn history
+ * left swipe for recieving payments
+ * 1st right swipe for sending payments
+ * 2nd right swipe for currently opend channels with option to open, start channel with others and viewe current network activity.
+ * 3rd right swipe for sending lightning txns by choosing a recipient from the network.
+ * 4th right swipe for creating recieve requests for lightning txns.
